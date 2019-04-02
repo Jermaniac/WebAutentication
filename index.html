@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  
+<script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDyhXNikDPb-x_X0zNQV642VT7mt9PjIuo",
+    authDomain: "test-9804b.firebaseapp.com",
+    databaseURL: "https://test-9804b.firebaseio.com",
+    projectId: "test-9804b",
+    storageBucket: "test-9804b.appspot.com",
+    messagingSenderId: "432513053885"
+  };
+  firebase.initializeApp(config);
+</script>
+<link href="./estilos.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+  <p>Registro de usuarios</p>
+  <input id="email" type="email" placeholder="Ingresa email">
+  <input id="password" type="password" placeholder="Ingresa password">
+  <button onclick="registrar()">Registro</button>
+
+  <p>Login de usuarios</p>
+  <input id="email2" type="email" placeholder="Ingresa email">
+  <input id="password2" type="password" placeholder="Ingresa password">
+  <button onclick="login()">Login</button>
+
+  <div id="Contenido">
+    
+  </div>
+    <script src="app.js"></script>
+
+   
+</body>
+</html>

@@ -1,0 +1,16 @@
+p {
+    color: red;
+    width: 50px;
+  }
+
+h1 {
+    color: blue;
+    background-color: yellow;
+    border: 1px solid black;
+  }
+  body {
+    background-color: antiquewhite;
+  }
+  div{
+    color: blue
+  }
